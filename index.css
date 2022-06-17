@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(190, 52, 158);
+}
+
+.container-fluid {
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+    height: 450px;
+    background-color: aliceblue;
+    padding: 35px 25px;
+}
+
+.container
+{
+    width: 100%;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    width: 100%;
+    color: navy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 60px;
+}
+
+.word {
+    width: 95%;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 95%;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: rgb(190, 52, 158);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+   background-color: rgb(138, 22, 111); ;
+}
+
+.throw {
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: navy;
+}
+
+/* for tablets */
+@media (max-width:768px) {
+
+    .container-fluid {
+        width: 65%;
+    }
+}
+
+/* For mobile */
+@media (max-width:426px) {
+
+    .container-fluid {
+        width: 80%;
+        height: 400px
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    .throw {
+        padding: 14px 0px;
+        font-size: 15px;
+        font-weight: bold;
+        color: navy;
+    }
+}
+
+@media (min-width:214px) and (max-width:375px){
+
+    .container-fluid {
+        width: 100%;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+}
